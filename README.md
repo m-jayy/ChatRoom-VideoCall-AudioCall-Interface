@@ -7,14 +7,14 @@ This Project is still in it's very early stages, but improvements would come ove
 
 Note: This is merely a Interface, messages being actually sent and recieved by your application still needs to be implemented.
   
-  ![](https://github.com/m-jayy/MjRangeBar/blob/master/screenshots/header.jpg | width=100)
+  ![github-large](https://github.com/m-jayy/ChatRoom-VideoCall-AudioCall-Interface/blob/master/screenshots/header.jpg)
 
 # Try it
   just download out the sample project to try it yourself! 
 
 
 
-![github-small](https://github.com/m-jayy/MjRangeBar/blob/master/screenshots/lobby.jpg)
+![github-small](https://github.com/m-jayy/MjRangeBar/blob/master/screenshots/ss2.png)
 
 # Plan for Future
 
