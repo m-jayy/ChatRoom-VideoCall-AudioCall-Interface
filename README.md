@@ -1,82 +1,38 @@
-# MjRangeBar
+# Mj-ChatRoom/VideoCall/AudioCall Interface
 
 
-The MjRangeBar is android RangeBar Graph library that adds some basic material styling, as well as start and end values of range bar,start and end values of Range and item value as floats and some other things using views and Canvas.
+This is project is meant to ease the life of any developer looking to add chat/video call/audio call functionality into his/her Android application and wouldn't like to worry so much about setting up the UI.
 
-**Developers can customize the following attributes (programmatically):**
+This Project is still in it's very early stages, but improvements would come over time.
 
-  - Background Color
-  - RangeBar Selected Color
-  - RangeBar Stroke Color
-  - Magic
-  - Min & Max Text Color
-  - Value Text Color
-  - Circle Color
-  - out Of Bound Text Color
+Note: This is merely a Interface, messages being actually sent and recieved by your application still needs to be implemented.
   
-  **Supported on API Level 15 and above.**
+  ![](https://github.com/m-jayy/MjRangeBar/blob/master/screenshots/header.jpg | width=100)
 
-# How to Use
-In your project build.gradle. Add the following lines
-```Gradle
-Allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
-```
-In your app build.gradle. Add the following lines
-```Gradle
-implementation 'com.github.m-jayy:MjRangeBar:0.1.0'
-```
+# Try it
+  just download out the sample project to try it yourself! 
 
-# Examples
-#### Layout XML
-```XML
-  <com.mohsin.rangebar_graph.RangeBarGraph
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:layout_gravity="center_horizontal"
-        android:paddingBottom="90dp"
-        android:adjustViewBounds="true"
-        />
-```
-#### Java
-```Java
-RangeBarGraph = (RangeBarGraph) findViewById(R.id.RangeBarGraph);
-RangeBarGraph.setValues(0.0, 400.0, 130.0, 350.0, 14.0);
 
-//        RangeBarGraph.setRangeBarBackgroundColor("00ffffff");
-//        RangeBarGraph.setRangeBarStrokeColor("#eaeaea");
-//        RangeBarGraph.setRangeBarSelectedColor("#eaeaea");
-//        RangeBarGraph.setRangeBarValueTextColor("#333333");
-//        RangeBarGraph.setRangeBarMinMaxTextColor("#333333");
-//        RangeBarGraph.setvalueCircleColor("#333333");
-//        RangeBarGraph.setoutOfBoundColor("#FF0000");
-```
+
+![github-small](https://github.com/m-jayy/MjRangeBar/blob/master/screenshots/lobby.jpg)
 
 # Plan for Future
 
- - Better documentation.
+ - More attractive UI
  - Kotlin conversion
- - Add more functionality
+ - Add functionality
  
 
 # License
-```sh
-Copyright 2013, Edmodo, Inc.
 
-Licensed under the Apache License, Version 2.0 (the "License"); you may not use this work except in compliance with the License. You may obtain a copy of the License in the LICENSE file, or at:
-
-http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
-
-```
+**Free Software, Hell Yeah!** :metal:
 
 
-# Contribution
-We'd love for you to participate in the development of our project. So we need all the help we can get. You are always welcome to contribute and help us maintain the library.
 
+# Contributing
+  We welcome any and all contributions, code cleanups and feature requests.
+  
+  Check for open issues or open a fresh issue to start a discussion around a feature idea or a bug.
+  Fork the repository on GitHub to start making your changes to the master branch (or branch off of it).
+  Send a pull request and bug the maintainer until it gets merged and published. :).
 
