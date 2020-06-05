@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:id="@+id/clHeader"
+    android:layout_height="60dp">
+
+    <View
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_height="60dp"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/glv05"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".04"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/glv95"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".96"/>
+
+
+
+    <ImageView
+        android:layout_width="80dp"
+        app:layout_constraintLeft_toRightOf="@id/glv05"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="50dp"
+
+
+
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+
+
+
+
+        android:scaleType="fitStart"
+        android:id="@+id/btnBack"
+
+        android:src="@android:color/transparent"
+        android:background="@android:color/transparent"
+        android:layout_centerVertical="true"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/tvHeader"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginEnd="60dp"
+        android:textAlignment="center"
+
+        android:text="Chat App Interface"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="21sp"
+        android:layout_height="60dp" />
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        app:layout_constraintRight_toLeftOf="@id/glv95"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        android:layout_marginRight="5dp"
+        android:scaleType="fitEnd"
+
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+
+
+
+        android:id="@+id/btnOperation"
+
+        android:background="@android:color/transparent"
+        android:layout_centerVertical="true"
+        />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

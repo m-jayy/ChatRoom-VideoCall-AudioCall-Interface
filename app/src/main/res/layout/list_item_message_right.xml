@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+    >
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:id="@+id/glv02"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".02"
+        android:layout_height="wrap_content" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/glv98"
+        app:layout_constraintGuide_percent=".98"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:id="@+id/rl"
+        android:paddingRight="6dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/profilePic"
+        >
+
+        <TextView
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/lblMsgFrom"
+            android:paddingRight="4dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#777777"
+            android:textSize="12dp"
+            android:textStyle="italic" />
+
+
+
+        <TextView
+
+            android:id="@+id/txtMsg"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/lblMsgFrom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_msg_you"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="14dp"
+            android:paddingTop="5dp"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+
+            android:layout_toLeftOf="@+id/textView27"
+            />
+
+
+        <TextView
+            android:paddingRight="4dp"
+            android:id="@+id/txtDate"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/txtMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#777777"
+            android:textSize="10dp"
+            android:textStyle="italic" />
+
+
+        <TextView
+            android:paddingRight="4dp"
+            android:id="@+id/txtStatus"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/txtDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#777777"
+            android:textSize="8dp"
+            android:textStyle="italic" />
+
+
+    </RelativeLayout>
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profilePic"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/img1"
+        app:layout_constraintBottom_toBottomOf="@+id/rl"
+        app:layout_constraintRight_toLeftOf="@+id/glv98"
+
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        app:layout_constraintTop_toBottomOf="@+id/profilePic"
+        android:divider="@android:color/transparent"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
