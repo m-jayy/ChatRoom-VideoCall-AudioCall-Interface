@@ -5,7 +5,7 @@ This is project is meant to ease the life of any developer looking to add chat/v
 
 This Project is still in it's very early stages, but improvements would come over time.
 
-** Note: This is merely a Interface, messages being actually sent and received by your application still needs to be implemented. ** 
+**Note: This is merely a Interface, messages being actually sent and received by your application still needs to be implemented.** 
   
   ![github-large](https://github.com/m-jayy/ChatRoom-VideoCall-AudioCall-Interface/blob/master/screenshots/header.jpg)
 
