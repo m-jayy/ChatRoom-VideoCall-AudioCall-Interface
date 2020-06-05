@@ -5,12 +5,12 @@ This is project is meant to ease the life of any developer looking to add chat/v
 
 This Project is still in it's very early stages, but improvements would come over time.
 
-Note: This is merely a Interface, messages being actually sent and received by your application still needs to be implemented.
+** Note: This is merely a Interface, messages being actually sent and received by your application still needs to be implemented. ** 
   
   ![github-large](https://github.com/m-jayy/ChatRoom-VideoCall-AudioCall-Interface/blob/master/screenshots/header.jpg)
 
 # Try it
-  just download out the sample project to try it yourself! 
+  just download out the sample project to try it yourself! :wink:
 
 
 # Plan for Future
@@ -31,5 +31,5 @@ Note: This is merely a Interface, messages being actually sent and received by y
   
   Check for open issues or open a fresh issue to start a discussion around a feature idea, bug or functionality implementation.
   Fork the repository on GitHub to start making your changes to the master branch (or branch off of it).
-  Send a pull request and bug the maintainer until it gets merged and published. :).
+  Send a pull request and bug the maintainer until it gets merged and published. :relaxed:
 
