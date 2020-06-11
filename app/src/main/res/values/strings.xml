@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">chatAppInterface</string>
+        <string name="host">192.168.137.1</string>
+        <string name="port">3000</string>
+        <string name="action_settings">Options</string>
+
 </resources>

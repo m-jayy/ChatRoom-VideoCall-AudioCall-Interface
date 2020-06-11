@@ -5,7 +5,7 @@ android {
     buildToolsVersion "29.0.3"
     defaultConfig {
         applicationId "com.mohsin.chatappinterface"
-        minSdkVersion 15
+        minSdkVersion 16
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
@@ -28,5 +28,10 @@ dependencies {
     implementation 'de.hdodenhof:circleimageview:3.1.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation project(':webrtc-client')
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+
+    implementation 'com.github.nkzawa:socket.io-client:0.4.2'    //webSocket相关
+    implementation 'io.pristine:libjingle:8871@aar'
 
 }
